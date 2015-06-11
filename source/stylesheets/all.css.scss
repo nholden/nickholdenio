@@ -3,3 +3,7 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+
+body {
+  @include outer-container;
+}
