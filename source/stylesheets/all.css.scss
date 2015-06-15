@@ -5,5 +5,29 @@
 @import "neat";
 
 body {
+  background-color: $base-background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer, .intro{
   @include outer-container;
+}
+
+.title {
+  @include background(url('/images/colorado.jpg'));
+  background-size: cover;
+  background-position: top;
+  height: 300px;
+}
+
+.title-content{
+  @include outer-container;
+  text-align: center;
+  padding: 2em;
+  
+  h1{
+    font-size: 150%;
+    color: $snow3;
+  }
 }
