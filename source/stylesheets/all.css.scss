@@ -10,8 +10,14 @@ body {
   padding: 0;
 }
 
-.header, .footer, .intro{
+.header, .footer {
+  background-color: $trees1;
+  padding: $small-spacing;
+}
+
+.header-content, .footer-content {
   @include outer-container;
+  color: $sky3;
 }
 
 .title {
@@ -30,4 +36,13 @@ body {
     font-size: 150%;
     color: $snow3;
   }
+}
+
+.content {
+  padding: $small-spacing;
+}
+
+.intro {
+  @include outer-container;
+  color: $snow1;
 }

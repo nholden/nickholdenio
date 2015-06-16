@@ -9,8 +9,12 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <div class="header">This is the header</div>
+    <div class="header">
+      <div class="header-content">This is the header</div>
+    </div>
     <%= yield %>
-    <div class="footer">This is the footer</div>
+    <div class="footer">
+      <div class="footer-content">This is the footer</div>
+    </div>
   </body>
 </html>
