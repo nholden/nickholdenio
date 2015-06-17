@@ -10,6 +10,11 @@ body {
   padding: 0;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+}
+
 .header, .footer {
   background-color: $trees1;
   padding: $small-spacing;
@@ -20,6 +25,16 @@ body {
   color: $sky3;
 }
 
+h2 {
+  font-size: 200%;
+  color: $sky2;
+}
+
+h3 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
 .hero {
   @include background(url('/images/colorado.jpg'));
   background-size: cover;
@@ -27,43 +42,54 @@ body {
   height: 300px;
 }
 
+.headshot {
+  margin-top: -20%;
+  padding: $small-spacing;
+
+  img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+  }
+
+  @include media($medium-screen) {
+    margin-top: -10%;
+  }
+}
+
 .content {
   @include outer-container;
   padding: $small-spacing;
-  margin-top: -10em;
+  color: $snow1;
 
-  @include media($medium-screen) {
-    margin-top: 0;
-  }
-
-  .headshot {
+  .left-column {
     @include span-columns(12);
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: $small-spacing;
-    }
-
     @include media($medium-screen) {
       @include span-columns(3);
-      img {
-        float: left;
-      }
+      text-align: right;
     }
   }
 
-  .intro {
+  .right-column {
     @include span-columns(12);
-    color: $snow1;
-    
-    h2 {
-      font-size: 200%;
-      color: $sky2;
-    }
-
     @include media($medium-screen) {
       @include span-columns(9);
+      @include omega();
+    }
+  }
+}
+
+.section-head {
+  @include outer-container;
+  padding: $small-spacing;
+  margin-bottom: -$base-spacing;
+  color: $snow1;
+
+  .left-column {
+    @include span-columns(12);
+    @include media($medium-screen) {
+      @include span-columns(3);
+      text-align: right;
     }
   }
 }
