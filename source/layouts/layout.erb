@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title><%= current_page.data.title %></title>
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <div class="header">
+      <div class="header-content">This is the header</div>
+    </div>
+    <%= yield %>
+    <div class="footer">
+      <div class="footer-content">This is the footer</div>
+    </div>
+  </body>
+</html>

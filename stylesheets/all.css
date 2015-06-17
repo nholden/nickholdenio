@@ -1,0 +1,373 @@
+/* line 1, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #385283;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover,
+  button:focus {
+    background-color: #21304d;
+    color: #fff; }
+  /* line 27, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+/* line 1, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: #c7c8c9;
+  border: 1px solid #adaeb0;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple],
+textarea {
+  background-color: #eae9e7;
+  border: 1px solid #adaeb0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color;
+  width: 100%; }
+  /* line 44, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+  select[multiple=multiple]:hover,
+  textarea:hover {
+    border-color: #939497; }
+  /* line 48, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+  select[multiple=multiple]:focus,
+  textarea:focus {
+    border-color: #385283;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(48, 71, 113, 0.7);
+    outline: none; }
+
+/* line 55, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 59, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 63, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 69, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%; }
+
+/* line 74, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_tables.scss */
+table {
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  -moz-font-feature-settings: "kern", "liga", "tnum";
+  -ms-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #86888a;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #adaeb0;
+  padding: 0.75em 0; }
+
+/* line 21, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+body {
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #0f140f;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 10, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 22, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 26, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+a {
+  color: #385283;
+  text-decoration: none;
+  transition: color 0.1s linear; }
+  /* line 31, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #21304d; }
+  /* line 37, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/* line 43, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #adaeb0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 51, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 4, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* line 7, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+body {
+  background-color: #eae9e7;
+  margin: 0;
+  padding: 0; }
+
+/* line 13, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.header {
+  position: fixed;
+  width: 100%; }
+
+/* line 18, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.header, .footer {
+  background-color: #0f140f;
+  padding: 0.75em; }
+
+/* line 23, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.header-content, .footer-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #91a7b5; }
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .header-content::after, .footer-content::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 28, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+h2 {
+  font-size: 200%;
+  color: #4f719e; }
+
+/* line 33, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+h3 {
+  font-size: 150%;
+  font-weight: bold; }
+
+/* line 38, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.hero {
+  background: url("/images/colorado.jpg");
+  background: url("/images/colorado.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 300px; }
+
+/* line 45, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.headshot {
+  margin-top: -20%;
+  padding: 0.75em; }
+  /* line 49, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .headshot img {
+    display: block;
+    margin: auto;
+    max-width: 200px; }
+  @media screen and (min-width: 40em) {
+    /* line 45, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+    .headshot {
+      margin-top: -10%; } }
+
+/* line 60, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75em;
+  color: #606062; }
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .content::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 65, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .content .left-column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .content .left-column:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 65, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      .content .left-column {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        text-align: right; }
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .content .left-column:last-child {
+          margin-right: 0; } }
+  /* line 73, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .content .right-column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .content .right-column:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 73, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      .content .right-column {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 74.41059%;
+        margin-right: 0; }
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .content .right-column:last-child {
+          margin-right: 0; } }
+
+/* line 82, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.section-head {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75em;
+  margin-bottom: -1.5em;
+  color: #606062; }
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .section-head::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 88, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .section-head .left-column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-head .left-column:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 88, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      .section-head .left-column {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        text-align: right; }
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-head .left-column:last-child {
+          margin-right: 0; } }
