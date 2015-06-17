@@ -265,8 +265,8 @@ h3 {
 
 /* line 38, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .hero {
-  background: url("/images/colorado.jpg");
-  background: url("/images/colorado.jpg");
+  background: url("../images/colorado.jpg");
+  background: url("../images/colorado.jpg");
   background-size: cover;
   background-position: top;
   height: 300px; }
