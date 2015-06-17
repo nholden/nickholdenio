@@ -72,9 +72,14 @@ h3 {
 
   .right-column {
     @include span-columns(12);
+    img {
+      margin-bottom: $small-spacing;
+    }
+
     @include media($medium-screen) {
       @include span-columns(9);
       @include omega();
+
     }
   }
 }

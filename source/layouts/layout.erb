@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "all" %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <%= javascript_include_tag  "all" %>
 
     <!-- Google Analytics //-->
@@ -22,11 +23,11 @@
 
   <body class="<%= page_classes %>">
     <div class="header">
-      <div class="header-content">This is the header</div>
+      <div class="header-content"></div>
     </div>
     <%= yield %>
     <div class="footer">
-      <div class="footer-content">This is the footer</div>
+      <div class="footer-content"></div>
     </div>
   </body>
 </html>
