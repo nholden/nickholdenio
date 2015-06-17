@@ -36,7 +36,7 @@ h3 {
 }
 
 .hero {
-  @include background(url('/images/colorado.jpg'));
+  @include background(image_url('colorado.jpg'));
   background-size: cover;
   background-position: top;
   height: 300px;
