@@ -234,14 +234,31 @@ body {
 /* line 13, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .header {
   position: fixed;
-  width: 100%; }
-
-/* line 18, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
-.header, .footer {
+  width: 100%;
   background-color: #0f140f;
   padding: 0.75em; }
 
-/* line 23, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 20, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+.footer {
+  background-color: #385283;
+  padding: 1.5em;
+  text-align: center; }
+  /* line 25, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .footer h2 {
+    color: #eae9e7; }
+  /* line 29, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  .footer a {
+    color: #adaeb0;
+    text-decoration: none;
+    transition: color 0.1s linear; }
+    /* line 34, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+    .footer a:active, .footer a:focus, .footer a:hover {
+      color: #86888a; }
+    /* line 40, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+    .footer a:active, .footer a:focus {
+      outline: none; }
+
+/* line 47, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .header-content, .footer-content {
   max-width: 68em;
   margin-left: auto;
@@ -253,17 +270,17 @@ body {
     content: "";
     display: table; }
 
-/* line 28, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 52, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 h2 {
   font-size: 200%;
   color: #4f719e; }
 
-/* line 33, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 57, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 h3 {
   font-size: 150%;
   font-weight: bold; }
 
-/* line 38, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 62, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .hero {
   background: url("../images/colorado.jpg");
   background: url("../images/colorado.jpg");
@@ -271,21 +288,21 @@ h3 {
   background-position: top;
   height: 300px; }
 
-/* line 45, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 69, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .headshot {
   margin-top: -20%;
   padding: 0.75em; }
-  /* line 49, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  /* line 73, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
   .headshot img {
     display: block;
     margin: auto;
     max-width: 200px; }
   @media screen and (min-width: 40em) {
-    /* line 45, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+    /* line 69, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
     .headshot {
       margin-top: -10%; } }
 
-/* line 60, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 84, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .content {
   max-width: 68em;
   margin-left: auto;
@@ -297,7 +314,7 @@ h3 {
     clear: both;
     content: "";
     display: table; }
-  /* line 65, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  /* line 89, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
   .content .left-column {
     float: left;
     display: block;
@@ -307,7 +324,7 @@ h3 {
     .content .left-column:last-child {
       margin-right: 0; }
     @media screen and (min-width: 40em) {
-      /* line 65, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      /* line 89, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
       .content .left-column {
         float: left;
         display: block;
@@ -317,7 +334,7 @@ h3 {
         /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
         .content .left-column:last-child {
           margin-right: 0; } }
-  /* line 73, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  /* line 97, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
   .content .right-column {
     float: left;
     display: block;
@@ -326,11 +343,11 @@ h3 {
     /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     .content .right-column:last-child {
       margin-right: 0; }
-    /* line 75, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+    /* line 99, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
     .content .right-column img {
       margin-bottom: 0.75em; }
     @media screen and (min-width: 40em) {
-      /* line 73, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      /* line 97, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
       .content .right-column {
         float: left;
         display: block;
@@ -341,7 +358,7 @@ h3 {
         .content .right-column:last-child {
           margin-right: 0; } }
 
-/* line 87, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+/* line 111, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .section-head {
   max-width: 68em;
   margin-left: auto;
@@ -354,7 +371,7 @@ h3 {
     clear: both;
     content: "";
     display: table; }
-  /* line 93, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+  /* line 117, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
   .section-head .left-column {
     float: left;
     display: block;
@@ -364,7 +381,7 @@ h3 {
     .section-head .left-column:last-child {
       margin-right: 0; }
     @media screen and (min-width: 40em) {
-      /* line 93, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
+      /* line 117, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
       .section-head .left-column {
         float: left;
         display: block;
