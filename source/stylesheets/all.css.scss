@@ -13,12 +13,36 @@ body {
 .header {
   position: fixed;
   width: 100%;
-}
-
-.header, .footer {
   background-color: $trees1;
   padding: $small-spacing;
 }
+
+.footer {
+  background-color: $sky1;
+  padding: $base-spacing;
+  text-align: center;
+
+  h2 {
+    color: $snow3;
+  }
+
+  a {
+    color: $snow2;
+    text-decoration: none;
+    transition: color 0.1s linear;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($snow2, 15%);
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+} 
 
 .header-content, .footer-content {
   @include outer-container;
