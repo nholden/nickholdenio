@@ -605,12 +605,12 @@ body {
 
 /* line 53, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 h2 {
-  font-size: 200%;
+  font-size: 150%;
   color: #4f719e; }
 
 /* line 58, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 h3 {
-  font-size: 150%;
+  font-size: 125%;
   font-weight: bold; }
 
 /* line 63, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
@@ -652,7 +652,7 @@ h3 {
     /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     .content .left-column:last-child {
       margin-right: 0; }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 53.75em) {
       /* line 85, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
       .content .left-column {
         float: left;
@@ -675,7 +675,7 @@ h3 {
     /* line 95, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
     .content .right-column img {
       margin-bottom: 0.75em; }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 53.75em) {
       /* line 93, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
       .content .right-column {
         float: left;
@@ -724,26 +724,3 @@ h3 {
 /* line 122, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
 .highlight {
   background-color: #eae9e7; }
-
-/* line 126, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
-.blog-article {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.3/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-  .blog-article::after {
-    clear: both;
-    content: "";
-    display: table; }
-  /* line 129, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
-  .blog-article .title {
-    font-size: 150%;
-    font-weight: bold;
-    color: #385283; }
-  /* line 135, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
-  .blog-article .date {
-    color: #606062; }
-  /* line 139, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
-  .blog-article .body {
-    color: #606062;
-    margin-top: 0.75em; }

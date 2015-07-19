@@ -26,11 +26,10 @@
     <div class="headshot">
 <a href="/">        <img src="/images/headshot.png" alt="Nick Holden" />
 </a>    </div>
-    <div class="blog-article">
+    <div class="content">
   <article>
-    <div class="title">Replacing .each_with_index with .map to streamline Ruby code</div>
-    <div class="date">July 19, 2015</div>
-    <div class="body">
+    <div class="left-column"><h2>Replacing .each_with_index with .map to streamline Ruby code</h2></div>
+    <div class="right-column">
       <p>I recently had to write a method that would take an encrypted message and return a decrypted message using a key. The key was a hash of numeric codes and words like this.</p>
 
 <pre class="highlight ruby"><code>  <span class="p">{</span> <span class="s2">"1"</span> <span class="o">=&gt;</span> <span class="s2">"secret"</span><span class="p">,</span> <span class="s2">"2"</span> <span class="o">=&gt;</span> <span class="s2">"message"</span><span class="p">}</span>
@@ -81,6 +80,7 @@
 
 <p>By chaining the methods I wanted to call on the encrypted message together and removing the optional parameter from <code>.split</code>, I reduced my method down to one short line.</p>
 
+      <p><i>July 19, 2015</i></p>
     </div>
   </article>
 </div>
