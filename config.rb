@@ -47,11 +47,20 @@ end
 #   end
 # end
 
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.layout = "article_layout"
+end
+
+activate :syntax
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :markdown_engine, :kramdown
 
 activate :relative_assets
 set :relative_links, true

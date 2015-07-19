@@ -22,6 +22,12 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <div class="hero"></div>
+    <div class="headshot">
+      <% link_to '/' do %>
+        <img src="/images/headshot.png" alt="Nick Holden" />
+      <% end %>
+    </div>
     <%= yield %>
     <div class="footer">
       <h2>Get in touch</h2>

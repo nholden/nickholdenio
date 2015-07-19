@@ -3,6 +3,7 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import "github";
 
 body {
   background-color: $base-background-color;
@@ -67,14 +68,9 @@ h3 {
 }
 
 .headshot {
-  margin-top: -20%;
+  margin: -20% auto 0 auto;
   padding: $small-spacing;
-
-  img {
-    display: block;
-    margin: auto;
-    max-width: 200px;
-  }
+  width: 200px;
 
   @include media($medium-screen) {
     margin-top: -10%;
@@ -120,5 +116,28 @@ h3 {
       @include span-columns(3);
       text-align: right;
     }
+  }
+}
+
+.highlight {
+  background-color: $snow3;
+}
+
+.blog-article {
+  @include outer-container;
+
+  .title {
+    font-size: 150%;
+    font-weight: bold;
+    color: $sky1;
+  }
+
+  .date {
+    color: #606062;
+  }
+
+  .body {
+    color: #606062;
+    margin-top: $small-spacing;
   }
 }

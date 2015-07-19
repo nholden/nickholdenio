@@ -2,10 +2,6 @@
 title: Nick Holden dot IO
 ---
 
-<div class="hero"></div>
-<div class="headshot">
-  <img src="images/headshot.png" alt="Nick Holden" />
-</div>
 <div class="content">
   <div class="left-column">
     <h2>Hi!</h2>
@@ -17,6 +13,17 @@ title: Nick Holden dot IO
     <p>
       You can reach me at <a href="mailto:nick.r.holden@gmail.com">nick.r.holden@gmail.com</a>.
     </p>
+  </div>
+</div>
+<div class="content">
+  <div class="left-column">
+    <h2>Blog</h2>
+  </div>
+  <div class="right-column">
+    <% page_articles.each_with_index do |article, i| %>
+      <p><%= link_to article.title, article %> <br />
+      <%= article.date.strftime('%B %d, %Y') %></p>
+    <% end %>
   </div>
 </div>
 <div class="section-head">
