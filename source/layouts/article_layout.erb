@@ -1,10 +1,10 @@
 <% wrap_layout :layout do %>
-<div class="blog-article">
+<div class="content">
   <article>
-    <div class="title"><%= current_article.title %></div>
-    <div class="date"><%= current_article.date.strftime('%B %d, %Y') %></div>
-    <div class="body">
+    <div class="left-column"><h2><%= current_article.title %></h2></div>
+    <div class="right-column">
       <%= yield %>
+      <p><i><%= current_article.date.strftime('%B %d, %Y') %></i></p>
     </div>
   </article>
 </div>

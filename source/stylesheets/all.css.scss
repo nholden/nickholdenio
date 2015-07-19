@@ -51,12 +51,12 @@ body {
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 150%;
   color: $sky2;
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 125%;
   font-weight: bold;
 }
 
@@ -84,7 +84,7 @@ h3 {
 
   .left-column {
     @include span-columns(12);
-    @include media($medium-screen) {
+    @include media($large-screen) {
       @include span-columns(3);
       text-align: right;
     }
@@ -96,7 +96,7 @@ h3 {
       margin-bottom: $small-spacing;
     }
 
-    @include media($medium-screen) {
+    @include media($large-screen) {
       @include span-columns(9);
       @include omega();
 
@@ -121,23 +121,4 @@ h3 {
 
 .highlight {
   background-color: $snow3;
-}
-
-.blog-article {
-  @include outer-container;
-
-  .title {
-    font-size: 150%;
-    font-weight: bold;
-    color: $sky1;
-  }
-
-  .date {
-    color: #606062;
-  }
-
-  .body {
-    color: #606062;
-    margin-top: $small-spacing;
-  }
 }
