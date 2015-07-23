@@ -72,7 +72,7 @@ h3 {
   padding: $small-spacing;
   width: 200px;
 
-  @include media($medium-screen) {
+  @include media($large-screen) {
     margin-top: -10%;
   }
 }
@@ -112,7 +112,7 @@ h3 {
 
   .left-column {
     @include span-columns(12);
-    @include media($medium-screen) {
+    @include media($large-screen) {
       @include span-columns(3);
       text-align: right;
     }
