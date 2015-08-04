@@ -217,11 +217,11 @@ picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 4, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 4, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
 html {
   box-sizing: border-box; }
 
-/* line 9, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 9, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
 
@@ -597,7 +597,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: #91a7b5; }
-  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.3/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
   .header-content::after, .footer-content::after {
     clear: both;
     content: "";
@@ -638,7 +638,7 @@ h3 {
   margin-right: auto;
   padding: 0.75em;
   color: #606062; }
-  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.3/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
   .content::after {
     clear: both;
     content: "";
@@ -649,7 +649,7 @@ h3 {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     .content .left-column:last-child {
       margin-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -660,7 +660,7 @@ h3 {
         margin-right: 2.35765%;
         width: 23.23176%;
         text-align: right; }
-        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
         .content .left-column:last-child {
           margin-right: 0; } }
   /* line 93, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
@@ -669,7 +669,7 @@ h3 {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     .content .right-column:last-child {
       margin-right: 0; }
     /* line 95, /home/nholden/ruby_projects/nickholdenio/source/stylesheets/all.css.scss */
@@ -683,7 +683,7 @@ h3 {
         margin-right: 2.35765%;
         width: 74.41059%;
         margin-right: 0; }
-        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
         .content .right-column:last-child {
           margin-right: 0; } }
 
@@ -695,7 +695,7 @@ h3 {
   padding: 0.75em;
   margin-bottom: -1.5em;
   color: #606062; }
-  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.3/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /home/nholden/.rvm/gems/ruby-2.1.4/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
   .section-head::after {
     clear: both;
     content: "";
@@ -706,7 +706,7 @@ h3 {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     .section-head .left-column:last-child {
       margin-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -717,7 +717,7 @@ h3 {
         margin-right: 2.35765%;
         width: 23.23176%;
         text-align: right; }
-        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        /* line 89, /home/nholden/.rvm/gems/ruby-2.1.4/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
         .section-head .left-column:last-child {
           margin-right: 0; } }
 
